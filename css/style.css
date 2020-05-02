@@ -2,7 +2,6 @@ body {
     background: #f9d1d1;
     color: #000;
     font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 30px;
 }
 
 .container {
@@ -22,6 +21,11 @@ body {
 
 .submit-btn {
     margin: 10px;
+}
+
+.submit-btn .btn,
+.clear-btn .btn {
+    font-size: 25px;
 }
 
 .flex-container {

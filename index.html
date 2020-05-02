@@ -12,19 +12,25 @@
 <title>Todo List</title>
 </head>
 
-<body>
+<body onload="show()">
     <div class="container">
         <div class="add-todo">
-            <h5>Add Todo</h5>
+            <h2>Add Todo</h2>
             <input id="input-text" type="text" placeholder="Write your todo">
             <div class="submit-btn">
                 <button class="btn btn-dark" onclick="addtodo()">Submit</button>
             </div>
+
         </div>
 
         <div id="todo-list">
 
         </div>
+
+        <div class="clear-btn">
+            <button class="btn btn-dark" onclick="clearStorage()">Clear</button>
+        </div>
+
     </div>
 
 
