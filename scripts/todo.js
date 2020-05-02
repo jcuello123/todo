@@ -3,9 +3,7 @@ function addtodo() {
     if (input == null || input == "") {
         alert('You must enter some text.');
     } else {
-
-
-
+        
         let saved = localStorage.getItem('tasks');
 
         let textNode = document.createTextNode(input);
